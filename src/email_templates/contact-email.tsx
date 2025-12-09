@@ -36,7 +36,7 @@ export function ContactEmailTemplate({
           {/* Header with Logo */}
           <Section style={header}>
             <Img
-              src="https://aria.capital.vercel.app/logo.webp"
+              src={`${process.env.NEXT_PUBLIC_SITE_URL || 'https://aria.ke'}/logo.webp`}
               alt="ARIA Capital Residency"
               width="200"
               height="65"

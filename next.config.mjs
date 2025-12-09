@@ -11,6 +11,18 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'www.aria.ke',
+      },
+      {
+        protocol: 'https',
+        hostname: 'aria.ke',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ariacapital.vercel.app',
+      },
+      {
+        protocol: 'https',
         hostname: 'utfs.io',
       },
       {

@@ -14,7 +14,9 @@ const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 
 export default buildConfig({
-  serverURL: process.env.NODE_ENV === 'production' ? 'https://aria.ke' : 'http://localhost:3000',
+  serverURL:
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.NODE_ENV === 'production' ? 'https://aria.ke' : 'http://localhost:3000'),
   admin: {
     user: Users.slug,
     meta: {
