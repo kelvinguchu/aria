@@ -199,6 +199,25 @@ export function Location() {
               </div>
             </div>
           </div>
+
+          {/* List of locations below map */}
+          <div className="mt-8 flex flex-col items-center">
+            <h4 className="text-coral text-xl font-semibold mb-6">From your residence...</h4>
+            <div className="flex flex-col gap-4 items-center w-full">
+              {[...locationBadges]
+                .sort((a, b) => parseInt(a.time) - parseInt(b.time))
+                .map((badge) => (
+                  <div
+                    key={badge.id}
+                    className="bg-white rounded-full py-3 px-6 shadow-lg shadow-dark-blue/20 text-center"
+                  >
+                    <span className="text-dark-blue font-semibold text-sm">
+                      {badge.label} ({badge.time})
+                    </span>
+                  </div>
+                ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>

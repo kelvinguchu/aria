@@ -87,7 +87,15 @@ export function Footer() {
       <div className="border-t border-white/20">
         <div className="container mx-auto px-4 lg:px-8 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/80 text-sm">
-            Copyright and design by Joomba Realty - {new Date().getFullYear()}
+            All rights reserved &copy; {new Date().getFullYear()} | Powered by:{' '}
+            <a
+              href="http://www.joomba.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              Joomba Realty
+            </a>
           </p>
           <div className="flex gap-8">
             <Link

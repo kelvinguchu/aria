@@ -12,14 +12,16 @@ export function Hero() {
           src="/EXTERIORS/ARIA Building Shot - Exp.webp"
           alt="ARIA Residences Exterior"
           fill
-          className="object-cover"
+          className="object-cover object-center"
           priority
+          quality={100}
+          sizes="100vw"
         />
       </div>
 
       {/* Content Card */}
       <div className="relative z-10 container mx-auto px-4 flex justify-center pt-16 sm:pt-20 mt-8 sm:mt-12">
-        <div className="bg-white/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl px-5 py-6 sm:px-8 sm:py-8 md:px-12 md:py-10 text-center shadow-lg sm:max-w-none">
+        <div className="bg-white/60 backdrop-blur-xs rounded-2xl sm:rounded-3xl px-5 py-6 sm:px-8 sm:py-8 md:px-12 md:py-10 text-center shadow-lg w-full max-w-4xl md:max-w-5xl  lg:max-w-7xl">
           {/* Location */}
           <p className="text-coral text-xs sm:text-sm md:text-base font-medium tracking-wide mb-3 sm:mb-4">
             Mawensi Road, Upperhill, Nairobi - Kenya

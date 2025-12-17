@@ -278,12 +278,18 @@ export function FloorPlans() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
-                  <button className="bg-dark-blue text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-medium hover:bg-dark-blue/90 transition-colors cursor-pointer">
+                  <a
+                    href="mailto:sales@aria.ke"
+                    className="bg-dark-blue text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-medium hover:bg-dark-blue/90 transition-colors cursor-pointer text-center"
+                  >
                     Email To Book
-                  </button>
-                  <button className="bg-coral text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-medium hover:bg-coral/90 transition-colors cursor-pointer">
+                  </a>
+                  <a
+                    href="tel:+254759012345"
+                    className="bg-coral text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-medium hover:bg-coral/90 transition-colors cursor-pointer text-center"
+                  >
                     Call To Book
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

@@ -278,10 +278,10 @@ export function ExperienceAria() {
                 className="w-full"
                 opts={{ loop: true }}
               >
-                <CarouselContent className="h-56 sm:h-72">
+                <CarouselContent className="h-85 sm:h-96">
                   {carouselImages.map((image, index) => (
                     <CarouselItem key={image} className="relative">
-                      <div className="relative w-full h-56 sm:h-72">
+                      <div className="relative w-full h-85 sm:h-96">
                         <Image
                           src={image}
                           alt={`Gallery ${index + 1}`}

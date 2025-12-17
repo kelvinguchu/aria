@@ -21,7 +21,7 @@ const navLinks = [
       { href: '#floorplans', label: 'Unit Layouts.' },
     ],
   },
-  { href: '/articles', label: 'Articles.' },
+  { href: '/articles', label: 'Our Insights.' },
   { href: '#contact', label: 'Reserve your Unit.' },
 ]
 
@@ -77,11 +77,11 @@ export function Header({ forceScrolledStyle = false }: HeaderProps) {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 cursor-pointer">
           <Image
-            src="/logo.webp"
+            src={isScrolled ? '/colored-logo.webp' : '/logo.webp'}
             alt="ARIA"
             width={280}
             height={90}
-            className={cn('h-20 w-auto transition-all duration-300', isScrolled && 'brightness-0')}
+            className="h-20 w-auto transition-all duration-300"
           />
         </Link>
 
