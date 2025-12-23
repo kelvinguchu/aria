@@ -99,19 +99,19 @@ export function Footer() {
           </p>
           <div className="flex gap-8">
             <Link
-              href="#about"
+              href="/#about"
               className="text-white text-sm font-medium hover:opacity-80 transition-opacity"
             >
               Discover ARIA
             </Link>
             <Link
-              href="#amenities"
+              href="/#amenities"
               className="text-white text-sm font-medium hover:opacity-80 transition-opacity"
             >
               Amenities.
             </Link>
             <Link
-              href="#floorplans"
+              href="/#floorplans"
               className="text-white text-sm font-medium hover:opacity-80 transition-opacity"
             >
               Our Units.

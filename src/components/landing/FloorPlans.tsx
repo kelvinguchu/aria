@@ -25,7 +25,7 @@ const units = [
     id: 'a02',
     name: 'Unit A02',
     type: '3 Bed + SQ',
-    size: '194.50 SQM',
+    size: '194.62 SQM',
     image: '/FLOORPLANS/A-02.webp',
     description:
       'A luxurious 3BR unit with staff quarters, featuring expansive living spaces and premium finishes throughout. Perfect for families seeking space and comfort.',
@@ -41,7 +41,7 @@ const units = [
     id: 'a03',
     name: 'Unit A03',
     type: '2 Bedroom',
-    size: '113.36 SQM',
+    size: '126 SQM',
     image: '/FLOORPLANS/A-03.webp',
     description:
       'This elegant 2BR unit features a spacious living area complemented by two private balconies that enhance the home with abundant natural light and outdoor serenity.',
@@ -57,7 +57,7 @@ const units = [
     id: 'a04',
     name: 'Unit A04',
     type: '1 Bedroom',
-    size: '72.18 SQM',
+    size: '70 SQM',
     image: '/FLOORPLANS/A-04.webp',
     description:
       'A well-designed 1BR unit offering efficient use of space with modern amenities and stylish finishes throughout.',
@@ -72,7 +72,7 @@ const units = [
     id: 'a05',
     name: 'Unit A05',
     type: '1 Bed + Study',
-    size: '85.24 SQM',
+    size: '95 SQM',
     image: '/FLOORPLANS/A-05.webp',
     description:
       'Perfect for professionals, this 1BR unit includes a dedicated study space, ideal for working from home while maintaining separation from living areas.',
@@ -87,7 +87,7 @@ const units = [
     id: 'b01',
     name: 'Unit B01',
     type: '1 Bedroom',
-    size: '68.50 SQM',
+    size: '80 SQM',
     image: '/FLOORPLANS/B-01.webp',
     description:
       'A compact yet elegant 1BR unit featuring smart design and quality finishes, perfect for singles or couples.',
@@ -102,7 +102,7 @@ const units = [
     id: 'b02',
     name: 'Unit B02',
     type: '2 Bedroom',
-    size: '105.80 SQM',
+    size: '126 SQM',
     image: '/FLOORPLANS/B-02.webp',
     description:
       'A thoughtfully designed 2BR unit with generous living spaces and premium finishes, ideal for small families.',
@@ -117,7 +117,7 @@ const units = [
     id: 'b03',
     name: 'Unit B03',
     type: '3 Bedroom',
-    size: '174.20 SQM',
+    size: '174.83 SQM',
     image: '/FLOORPLANS/B-03.webp',
     description:
       'An expansive 3BR unit offering luxury family living with premium finishes and generous proportions throughout.',
@@ -149,7 +149,7 @@ const units = [
     id: 'b05',
     name: 'Unit B05',
     type: '2 Bedroom',
-    size: '108.45 SQM',
+    size: '129.8 SQM',
     image: '/FLOORPLANS/B-05.webp',
     description:
       'A beautifully appointed 2BR unit with efficient layout and premium finishes, perfect for modern urban living.',

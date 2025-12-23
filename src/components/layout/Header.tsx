@@ -10,19 +10,19 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { cn } from '@/lib/utils'
 
 const navLinks = [
-  { href: '#hero', label: 'Home.' },
-  { href: '#about', label: 'About.' },
+  { href: '/#hero', label: 'Home.' },
+  { href: '/#about', label: 'About.' },
   {
-    href: '#amenities',
+    href: '/#amenities',
     label: 'The Development.',
     hasDropdown: true,
     subLinks: [
-      { href: '#amenities', label: 'Amenities.' },
-      { href: '#floorplans', label: 'Unit Layouts.' },
+      { href: '/#amenities', label: 'Amenities.' },
+      { href: '/#floorplans', label: 'Unit Layouts.' },
     ],
   },
   { href: '/articles', label: 'Our Insights.' },
-  { href: '#contact', label: 'Reserve your Unit.' },
+  { href: '/#contact', label: 'Reserve your Unit.' },
 ]
 
 interface HeaderProps {
@@ -218,7 +218,7 @@ export function Header({ forceScrolledStyle = false }: HeaderProps) {
                   asChild
                   onClick={() => setIsOpen(false)}
                 >
-                  <Link href="#contact">Reserve your Unit</Link>
+                  <Link href="/#contact">Reserve your Unit</Link>
                 </Button>
               </div>
             </div>

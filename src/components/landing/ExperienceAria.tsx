@@ -92,7 +92,7 @@ export function ExperienceAria() {
   }, [])
 
   return (
-    <section className="bg-neutral-50 py-8 sm:py-12 lg:py-16">
+    <section id="experience-aria" className="bg-neutral-50 py-8 sm:py-12 lg:py-16">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="mb-8 sm:mb-12 lg:mb-16">

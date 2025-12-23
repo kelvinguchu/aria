@@ -127,7 +127,7 @@ export function About2() {
                 className="bg-dark-blue hover:bg-dark-blue/90 text-white px-5 sm:px-6 py-2.5 sm:py-3 text-sm rounded-md font-medium"
                 asChild
               >
-                <Link href="#gallery">Gallery Overview</Link>
+                <Link href="#experience-aria">Gallery Overview</Link>
               </Button>
             </div>
           </div>
