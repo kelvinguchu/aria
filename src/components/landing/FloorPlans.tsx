@@ -10,7 +10,7 @@ const units = [
     id: 'a01',
     name: 'Unit A01',
     type: '1 Bedroom',
-    size: '65.42 SQM',
+    size: '80 m² | 861.113 ft²',
     image: '/FLOORPLANS/A-01.webp',
     description:
       'This elegant 1BR unit features a spacious living area with abundant natural light. The open kitchen is tastefully finished with modern, high-quality materials.',
@@ -72,7 +72,7 @@ const units = [
     id: 'a05',
     name: 'Unit A05',
     type: '1 Bed + Study',
-    size: '95 SQM',
+    size: '92 m² | 990.28 ft²',
     image: '/FLOORPLANS/A-05.webp',
     description:
       'Perfect for professionals, this 1BR unit includes a dedicated study space, ideal for working from home while maintaining separation from living areas.',

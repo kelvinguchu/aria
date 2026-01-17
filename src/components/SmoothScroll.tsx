@@ -24,7 +24,25 @@ export function SmoothScroll({ children }: SmoothScrollProps) {
 
     requestAnimationFrame(raf)
 
+    // Watch for dialog state changes to stop/start Lenis
+    const observer = new MutationObserver(() => {
+      const dialogOpen = document.querySelector('[data-state="open"][data-slot="dialog-overlay"]')
+      if (dialogOpen) {
+        lenis.stop()
+      } else {
+        lenis.start()
+      }
+    })
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['data-state'],
+    })
+
     return () => {
+      observer.disconnect()
       lenis.destroy()
     }
   }, [])

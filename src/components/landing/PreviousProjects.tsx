@@ -7,7 +7,7 @@ const projects = [
     location: 'Nextgen, MBS Rd.',
     image: '/PREVIOUS PROJECTS/Enzi Heights_001_Front option.jpg',
     status: 'Completed',
-    year: '2020',
+    year: '2021',
   },
   {
     name: 'Capital Rise',
